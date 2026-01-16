@@ -1,0 +1,62 @@
+@font-face {
+    font-family:Inter ;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 100 900;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    display: grid;
+    width: 19rem;
+    background-color: hsl(0, 0%, 12%) ;
+    place-items: center;
+    border-radius: 16px;
+    padding: 16px;
+
+}
+.button{
+    width: 15rem;
+    height: 2rem;
+    background-color: hsl(0, 0%, 20%) ;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 6px;
+    display: grid;
+    font-family: Inter;
+    font-weight: 600;
+    place-items: center;
+    
+    
+}
+
+.pf{
+    border-radius: 100px;
+    width: 4rem;
+    margin: 20px;
+}
+
+h1{
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+    font-weight: 600;
+}
+h2{
+    font-size: 11px;
+    color: hsl(75, 94%, 57%);
+    font-family: Inter;
+}
+p{
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+    font-size: 12px;
+}
